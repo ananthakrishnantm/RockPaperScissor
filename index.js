@@ -62,4 +62,6 @@ function playRound(getComputerChoice, playerSelection) {
   }
 }
 //this activate the playRound function
-console.log(playRound(getComputerChoice(), playerSelection()));
+for (let i = 0; i < 5; i++) {
+  console.log(playRound(getComputerChoice(), playerSelection()));
+}
